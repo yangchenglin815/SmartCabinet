@@ -1,0 +1,301 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{d7ecf409-5ad2-4b5e-b26b-a1971d58db2f}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{a467aa1a-93ca-471d-8ae0-b57fe2ca68b8}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{d8c7b175-834c-4ccb-8d80-064548bf241c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{f3c2da7f-a9ce-40d5-a35d-fc301edb51fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{6d090fdf-958b-49a8-8cf2-d1a866191d94}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Log">
+      <UniqueIdentifier>{b84efab6-ba41-47ef-8f91-39c0d293b26f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Business">
+      <UniqueIdentifier>{62ce415a-c23f-419d-9494-7131a6ec7506}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Sql">
+      <UniqueIdentifier>{dc706369-746b-48d0-858d-875d26448a4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="smartcabinet.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_smartcabinet.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_smartcabinet.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_smartcabinet.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_LoginDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_LoginDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="LoginDialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_ToolsWidget.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_ToolsWidget.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolsWidget.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\DataPathManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppEnvChecker.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\SystemChecker.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppInitializer.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppInitializer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppInitializer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="App\UserConfig.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils\FileManager.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Log\GlogManager.cpp">
+      <Filter>Helper\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppCleaner.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="App\AppEventListener.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_AppEventListener.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_AppEventListener.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\GlobalSignal.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GlobalSignal.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GlobalSignal.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SuppliesIntactCheckDlg.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SuppliesIntactCheckDlg.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="SuppliesIntactCheckDlg.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SmartCabinetBase.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SmartCabinetBase.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\SmartCabinetBase.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SmartCabinetCharge.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SmartCabinetCharge.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\SmartCabinetCharge.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SmartCabinetFactory.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SmartCabinetFactory.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Business\SmartCabinetFactory.cpp">
+      <Filter>Business</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_DBOperate.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_DBOperate.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Sql\DBOperate.cpp">
+      <Filter>Helper\Sql</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Sql\mtmqsqlbase.cpp">
+      <Filter>Helper\Sql</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Sql\SqlTool.cpp">
+      <Filter>Helper\Sql</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SqlTool.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SqlTool.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="smartcabinet.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="smartcabinet.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="smartcabinet.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginDialog.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="LoginDialog.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ToolsWidget.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="ToolsWidget.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="App\AppInitializer.h">
+      <Filter>App</Filter>
+    </CustomBuild>
+    <CustomBuild Include="App\AppEventListener.h">
+      <Filter>App</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\GlobalSignal.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SuppliesIntactCheckDlg.h">
+      <Filter>Header Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="SuppliesIntactCheckDlg.ui">
+      <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\SmartCabinetBase.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\SmartCabinetCharge.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Business\SmartCabinetFactory.h">
+      <Filter>Business</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Sql\DBOperate.h">
+      <Filter>Helper\Sql</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\Sql\SqlTool.h">
+      <Filter>Helper\Sql</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_smartcabinet.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_LoginDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_ToolsWidget.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\WindowsDump.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\DataPathManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppEnvChecker.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\SystemChecker.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="App\UserConfig.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\FileManager.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Log\GlogManager.h">
+      <Filter>Helper\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="App\AppCleaner.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\GlobalDefine.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\mtmtype.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SuppliesIntactCheckDlg.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\mtmerror.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CommEnum.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Sql\mtmqsqlbase.h">
+      <Filter>Helper\Sql</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
