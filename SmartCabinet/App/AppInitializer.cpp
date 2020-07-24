@@ -85,21 +85,21 @@ void AppInitializer::clearOutdatedLogs()
 
 void AppInitializer::initDatabase()
 {
-	QString strConfigTableName = UserConfig::getInstance()->readSetting("MySql", "SYNTableName");
+	QString strConfigTableName = INSTANCE_USER_CONFIG->readSetting("MySql", "SYNTableName");
 	DBOperate::instance()->setTableNames(strConfigTableName.split("|"));
 
-	QString host     = UserConfig::getInstance()->readSetting("MySql", "Host");
-	QString dataBase = UserConfig::getInstance()->readSetting("MySql", "DataBase");
-	QString user     = UserConfig::getInstance()->readSetting("MySql", "User");
-	QString pass     = UserConfig::getInstance()->readSetting("MySql", "Pwd");
-	int     port     = UserConfig::getInstance()->readSetting("MySql", "Port").toInt();
+	QString host     = INSTANCE_USER_CONFIG->readSetting("MySql", "Host");
+	QString dataBase = INSTANCE_USER_CONFIG->readSetting("MySql", "DataBase");
+	QString user     = INSTANCE_USER_CONFIG->readSetting("MySql", "User");
+	QString pass     = INSTANCE_USER_CONFIG->readSetting("MySql", "Pwd");
+	int     port     = INSTANCE_USER_CONFIG->readSetting("MySql", "Port").toInt();
 	DBOperate::instance()->initSQLParams(dataBase, host, user, pass, port, _LocalSql);
 
-	host     = UserConfig::getInstance()->readSetting("SqlRemote", "Host");
-	dataBase = UserConfig::getInstance()->readSetting("SqlRemote", "DataBase");
-	user     = UserConfig::getInstance()->readSetting("SqlRemote", "User");
-	pass     = UserConfig::getInstance()->readSetting("SqlRemote", "Pwd");
-	port     = UserConfig::getInstance()->readSetting("SqlRemote", "Port").toInt();
+	host     = INSTANCE_USER_CONFIG->readSetting("SqlRemote", "Host");
+	dataBase = INSTANCE_USER_CONFIG->readSetting("SqlRemote", "DataBase");
+	user     = INSTANCE_USER_CONFIG->readSetting("SqlRemote", "User");
+	pass     = INSTANCE_USER_CONFIG->readSetting("SqlRemote", "Pwd");
+	port     = INSTANCE_USER_CONFIG->readSetting("SqlRemote", "Port").toInt();
 	DBOperate::instance()->initSQLParams(dataBase, host, user, pass, port, _ServerSql);
 }
 

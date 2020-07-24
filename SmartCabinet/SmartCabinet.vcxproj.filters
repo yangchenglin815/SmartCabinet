@@ -51,6 +51,12 @@
     <Filter Include="Helper\Sql">
       <UniqueIdentifier>{dc706369-746b-48d0-858d-875d26448a4a}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Helper\MessageBox">
+      <UniqueIdentifier>{d323dabe-06f4-49d8-9f56-79a24cef53fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Helper\Tts">
+      <UniqueIdentifier>{e4059c1f-e013-4aa4-9b03-5ccec3da42fb}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -191,6 +197,42 @@
     <ClCompile Include="GeneratedFiles\Release\moc_SqlTool.cpp">
       <Filter>Generated Files\Release</Filter>
     </ClCompile>
+    <ClCompile Include="Utils\CommonFunc.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\MessageBox\MtmMessageBox.cpp">
+      <Filter>Helper\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_InfoBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_InfoBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\MessageBox\InfoBox.cpp">
+      <Filter>Helper\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_SystemInfoBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_SystemInfoBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\MessageBox\SystemInfoBox.cpp">
+      <Filter>Helper\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_TopInfoBox.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_TopInfoBox.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\MessageBox\TopInfoBox.cpp">
+      <Filter>Helper\MessageBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Helper\Tts\mtmtts.cpp">
+      <Filter>Helper\Tts</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="smartcabinet.h">
@@ -244,6 +286,24 @@
     <CustomBuild Include="Helper\Sql\SqlTool.h">
       <Filter>Helper\Sql</Filter>
     </CustomBuild>
+    <CustomBuild Include="Helper\MessageBox\InfoBox.ui">
+      <Filter>Helper\MessageBox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\MessageBox\InfoBox.h">
+      <Filter>Helper\MessageBox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\MessageBox\SystemInfoBox.ui">
+      <Filter>Helper\MessageBox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\MessageBox\SystemInfoBox.h">
+      <Filter>Helper\MessageBox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\MessageBox\TopInfoBox.ui">
+      <Filter>Helper\MessageBox</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Helper\MessageBox\TopInfoBox.h">
+      <Filter>Helper\MessageBox</Filter>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="GeneratedFiles\ui_smartcabinet.h">
@@ -296,6 +356,30 @@
     </ClInclude>
     <ClInclude Include="Helper\Sql\mtmqsqlbase.h">
       <Filter>Helper\Sql</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CommonFunc.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\MessageBox\MtmMessageBox.h">
+      <Filter>Helper\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\MessageBox\MtmMessageBox_global.h">
+      <Filter>Helper\MessageBox</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_InfoBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_SystemInfoBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_TopInfoBox.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Helper\Tts\mtmtts.h">
+      <Filter>Helper\Tts</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils\CommonData.h">
+      <Filter>Utils</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

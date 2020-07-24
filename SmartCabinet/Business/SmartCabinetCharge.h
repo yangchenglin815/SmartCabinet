@@ -10,4 +10,7 @@ class SmartCabinetCharge : public SmartCabinetBase
 public:
 	SmartCabinetCharge();
 	virtual ~SmartCabinetCharge();
+
+public:
+	virtual bool InitSmartCabinetInfo();
 };

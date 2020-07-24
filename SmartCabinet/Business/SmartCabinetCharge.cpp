@@ -8,3 +8,8 @@ SmartCabinetCharge::SmartCabinetCharge()
 SmartCabinetCharge::~SmartCabinetCharge()
 {
 }
+
+bool SmartCabinetCharge::InitSmartCabinetInfo()
+{
+
+}

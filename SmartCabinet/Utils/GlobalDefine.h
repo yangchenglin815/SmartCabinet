@@ -1,3 +1,5 @@
+#pragma once
+
 #include <QDebug>
 #include <QDateTime>
 #include <QString>
