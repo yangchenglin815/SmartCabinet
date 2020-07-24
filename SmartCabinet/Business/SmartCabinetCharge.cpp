@@ -11,5 +11,5 @@ SmartCabinetCharge::~SmartCabinetCharge()
 
 bool SmartCabinetCharge::InitSmartCabinetInfo()
 {
-
+	return true;
 }
